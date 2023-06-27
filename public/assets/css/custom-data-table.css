@@ -1,0 +1,5 @@
+.table:not(.table-bordered).table-row-dashed tr {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #b7a8a8;
+}
