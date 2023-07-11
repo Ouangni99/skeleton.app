@@ -45,6 +45,8 @@ Route::middleware('auth')->group(function () {
         // Route::get('permission', function () {
             // Matches The "/admin/users" URL
             Route::get('permission', [PermissionController::class, 'create'])->name('permission');
+            Route::post('permission-form', [PermissionController::class, 'createForm'])->name('permission.form');
+            Route::post('permission-get', [PermissionController::class, 'getPermissionData'])->name('permission.get');
         // });
     });
 });

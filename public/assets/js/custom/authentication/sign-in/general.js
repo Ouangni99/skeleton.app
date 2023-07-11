@@ -1,7 +1,6 @@
 "use strict";
 var KTSigninGeneral = (function () {
     var e, t, i;
-    var csrfToken = $('meta[name="csrf-token"]').attr("content");
     toastr.options = {
         closeButton: true,
         debug: false,
@@ -58,43 +57,8 @@ var KTSigninGeneral = (function () {
                 t.addEventListener("click", function (n) {
                     n.preventDefault(),
                         i.validate().then(function (i) {
+
                             t.setAttribute("data-kt-indicator", "on"),(t.disabled = !0)
-
-                            //               (t.disabled = !1)
-                            // "Valid" == i ? (t.setAttribute("data-kt-indicator", "on"),(t.disabled = !0),
-                            //       setTimeout(function () {
-                            //           t.removeAttribute("data-kt-indicator"),
-                            //               (t.disabled = !1),
-                            //               Swal.fire({
-                            //                   text: "You have successfully logged in!",
-                            //                   icon: "success",
-                            //                   buttonsStyling: !1,
-                            //                   confirmButtonText: "Ok, got it!",
-                            //                   customClass: {
-                            //                       confirmButton:
-                            //                           "btn btn-primary",
-                            //                 },
-                            //               }).then(function (t) {
-                            //                   if (t.isConfirmed) {
-                            //                       (e.querySelector('[name="email"]').value = ""),(e.querySelector('[name="password"]').value = "");
-                            //                       var i = e.getAttribute("data-kt-redirect-url");
-                            //                       i && (location.href = i);
-                            //                   }
-                            //               });
-                            //       }, 2e3))
-                            //         : Swal.fire({
-                            //           text: "Désolé, il semble que des erreurs aient été détectées, veuillez réessayer.",
-                            //           icon: "error",
-                            //           buttonsStyling: !1,
-                            //           confirmButtonText: "Ok, j'ai compris !",
-                            //           customClass: {
-                            //               confirmButton: "btn btn-primary",
-                            //           },
-                            //       });
-
-                            // $("#login-form").submit(function (event) {
-                            // event.preventDefault(); // Empêche le comportement par défaut du formulaire
-
                             let formElement = $(`#loginForm`),
                                 formData = new FormData(formElement[0]);
                             formData.append(
@@ -102,41 +66,33 @@ var KTSigninGeneral = (function () {
                                 $('meta[name="csrf-token"]').attr("content")
                             ); // Ajoute le jeton CSRF au FormData
 
-                            // console.log($('#loginForm').attr('action'));
-                            // console.log(formData);
                             $.ajax({
-                                // headers: {
-                                //     "X-CSRF-TOKEN": csrfToken,
-                                // },
                                 url: $('#loginForm').attr('action'), // URL de la route de connexion
                                 type: "POST",
                                 data: formData,
                                 processData: false,
                                 contentType: false,
                                 success: function (response) {
-                                    // La requête a réussi
                                     // Vous pouvez rediriger l'utilisateur ou effectuer d'autres actions ici
                                     if (response.success) {
-                                        // console.log(response.success);
                                         toastr.success('Connexion réussie');
                                         // Authentification réussie, effectuer des actions supplémentaires
                                         (e.querySelector('[name="email"]').value = ""),(e.querySelector('[name="password"]').value = "");
                                         var i = e.getAttribute("data-kt-redirect-url");
                                         i && (location.href = i);
+                                    }// end if
+                                    else{
+                                        t.removeAttribute("data-kt-indicator"),(t.disabled = !1)
+                                        toastr.error(response.errors.email);
                                     }
                                 },
                                 error: function (xhr, status, error) {
-                                    // console.log(error);
-                                    // La requête a échoué
                                     // Vous pouvez afficher un message d'erreur ou effectuer d'autres actions ici
                                     var errors = xhr.responseJSON.errors;
-
-                                    // console.log(errors);
 
                                     // Verifier la taille de l'objet
                                     var size = Object.keys(errors).length;
 
-                                    // console.log(size);
                                     if(size > 1){
                                         t.removeAttribute("data-kt-indicator"),(t.disabled = !1)
                                         // Afficher les erreurs dans l'interface utilisateur
@@ -156,7 +112,6 @@ var KTSigninGeneral = (function () {
                                     }
                                 },
                             });
-                            // });
                         });
                 });
         },

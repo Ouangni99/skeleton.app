@@ -4,14 +4,34 @@
 var KTDatatablesServerSide = (function () {
     // Shared variables
     var dt;
+    var url = $("#kt_datatable_example_1").attr("action");
+    var urlForm = $("#open_permission_modal_id").attr("action");
+    // console.log(urlForm);
 
     // Private functions
     var initDatatable = function () {
         dt = $("#kt_datatable_example_1").DataTable({
+            language: {
+                info: "Affichage de _START_ - _END_ sur _TOTAL_",
+                infoEmpty: "Aucune donnée disponible",
+                search: "Rechercher:",
+                processing: "Chargement...",
+                paginate: {
+                    first: "Premier",
+                    last: "Dernier",
+                    next: "Suivant",
+                    previous: "Précédent",
+                },
+                zeroRecords: "Aucun enregistrement trouvé",
+                loadingRecords: "Chargement...",
+                buttons: {
+                    colvis: "Visibilité",
+                },
+            },
             searchDelay: 500,
             processing: true,
             serverSide: true,
-            order: [[2, "desc"]],
+            order: [[1, "desc"]],
             stateSave: true,
             select: {
                 style: "multi",
@@ -19,15 +39,33 @@ var KTDatatablesServerSide = (function () {
                 className: "row-selected",
             },
             ajax: {
-                url: "https://preview.keenthemes.com/api/datatables.php",
+                headers: {
+                    "X-CSRF-TOKEN": $('meta[name="csrf-token"]').attr(
+                        "content"
+                    ),
+                },
+                type: "POST",
+                dataType: "json",
+                // data: function(d) {
+                //     d.status = statusID;
+                // },
+                url: url,
             },
-            columns: [
-                { data: "Name" },
-                { data: "Email" },
-                { data: "Company" },
-                { data: null },
-            ],
+            columns: [{ data: "name" }, { data: null }],
             columnDefs: [
+                {
+                    targets: 0,
+                    // data: null,
+                    // orderable: false,
+                    // className: "text-center",
+                    render: function (data) {
+                        return `
+                            <a href="#" class="">
+                            ${data.toUpperCase()}
+                            </a>
+                        `;
+                    },
+                },
                 {
                     targets: -1,
                     data: null,
@@ -42,16 +80,13 @@ var KTDatatablesServerSide = (function () {
                             <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
                                 <!--begin::Menu item-->
                                 <div class="menu-item px-3">
-                                    <a href="#" class="menu-link px-3">Edit
-                                    </a>
+                                    <a href="javascript:;" class="menu-link px-3 open_permission_modal" data-row-id="${data.id}" data-bs-toggle="modal" data-bs-target="#kt_modal_add_permission" action="${urlForm}">Modifier</a>
                                 </div>
                                 <!--end::Menu item-->
 
                                 <!--begin::Menu item-->
                                 <div class="menu-item px-3">
-                                    <a href="#" class="menu-link px-3">
-                                        Delete
-                                    </a>
+                                    <a href="javascript:;" class="menu-link px-3" data-row-id="${data.id}">Suprimer</a>
                                 </div>
                                 <!--end::Menu item-->
                             </div>
@@ -77,6 +112,62 @@ var KTDatatablesServerSide = (function () {
             dt.search(e.target.value).draw();
         });
     };
+
+    // $(`.open_permission_modal`).on("click", function () {
+    //     // alert('DKSODK')
+
+    //     console.log($(this).attr("action"));
+
+    //     // set ajax request
+    //     $.ajax({
+    //         // AJAX Call options
+    //         url: $(this).attr("action"),
+    //         type: "POST",
+    //         data: {
+    //             dataRowID: $(this).attr("data-row-id"),
+    //         },
+    //         // CSRF verification
+    //         headers: {
+    //             "X-CSRF-TOKEN": $('meta[name="csrf-token"]').attr("content"),
+    //         },
+    //         // On 'Success' Event
+    //         success: function (data) {
+    //             // Process only if any data has been loaded
+    //             if (data) {
+    //                 $(
+    //                     `#kt_modal_add_permission #kt_modal_add_permission_content`
+    //                 ).html(data);
+    //             } // End if
+    //         }, // End success event
+    //     });
+    // });
+
+    $(document).on("click", `.open_permission_modal`, function () {
+        console.log($(this).attr("action"));
+
+        // set ajax request
+        $.ajax({
+            // AJAX Call options
+            url: $(this).attr("action"),
+            type: "POST",
+            data: {
+                dataRowID: $(this).attr("data-row-id"),
+            },
+            // CSRF verification
+            headers: {
+                "X-CSRF-TOKEN": $('meta[name="csrf-token"]').attr("content"),
+            },
+            // On 'Success' Event
+            success: function (data) {
+                // Process only if any data has been loaded
+                if (data) {
+                    $(
+                        `#kt_modal_add_permission #kt_modal_add_permission_content`
+                    ).html(data);
+                } // End if
+            }, // End success event
+        });
+    });
 
     // Filter Datatable
     // var handleFilterDatatable = () => {
