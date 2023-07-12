@@ -1,6 +1,6 @@
 @php
-// dd($permissionData);
-$modalTitle = (!empty($permissionData)) ? 'Modifier la permission' : 'Ajouter une permission'
+$modalTitle = (!empty($permissionData)) ? 'Modifier la permission' : 'Ajouter une permission' ;
+$permissionName = (!empty($permissionData->name)) ? mb_strtoupper($permissionData->name) : '' ;
 
 @endphp
 
@@ -27,14 +27,14 @@ $modalTitle = (!empty($permissionData)) ? 'Modifier la permission' : 'Ajouter un
             <label class="fs-6 fw-semibold form-label mb-2">
                 <span class="required">Nom de la permission</span>
                 <span class="ms-2" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-html="true"
-                    data-bs-content="Le nom de la permission doit être unique.">
+                    data-bs-content="Le nom de la permission est obligatoire.">
                     <i class="ki-outline ki-information fs-7"></i>
                 </span>
             </label>
             <!--end::Label-->
             <!--begin::Input-->
             <input class="form-control form-control-solid" placeholder="Saisir un nom de permission"
-                name="permission_name" />
+                name="name"  value="{{ $permissionName }}"/>
             <!--end::Input-->
         </div>
         <!--end::Input group-->
@@ -47,7 +47,7 @@ $modalTitle = (!empty($permissionData)) ? 'Modifier la permission' : 'Ajouter un
         <!--begin::Actions-->
         <div class="text-center">
             <button type="reset" class="btn btn-light me-3" data-kt-permissions-modal-action="cancel">Fermer</button>
-            <button type="submit" class="btn btn-primary" data-kt-permissions-modal-action="submit">
+            <button type="submit" class="btn btn-primary" data-kt-permissions-modal-action="submit" id="submitPermission" action="{{ route('permission.set') }}">
                 <span class="indicator-label">Enregistrer</span>
                 <span class="indicator-progress">Please wait...
                     <span class="spinner-border spinner-border-sm align-middle ms-2"></span></span>

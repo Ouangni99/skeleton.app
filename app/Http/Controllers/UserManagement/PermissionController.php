@@ -6,6 +6,7 @@ use Illuminate\View\View;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Spatie\Permission\Models\Permission;
+use Illuminate\Support\Facades\Validator;
 // use App\Utilities\PageAssetsLoader;
 
 class PermissionController extends Controller
@@ -65,5 +66,52 @@ class PermissionController extends Controller
 
         // return records
         return $records;
+    }
+
+
+    public function setPermissionData(Request $request) : string
+    {
+        // Définissez le nom de la permission
+
+        // Validation de la création ou de la modification de la permission
+        $validator = Validator::make(
+            ['name' => $request->name],
+            ['name' => 'required|unique:permissions']
+        );
+
+        if ($validator->fails()) {
+            $response = [
+                'success' => false,
+                'message' => implode($validator->errors()->all())
+            ];
+
+            return json_encode($response);
+        }
+
+        // Trouvez ou créez la permission avec le nom spécifié
+        $permission = Permission::firstOrNew([
+            'name' => $request->name,
+            'active' => 1
+        ]);
+
+        if ($permission->exists) {
+            $permission->name = $request->name;
+            $permission->save();
+
+            $response = [
+                'success' => true,
+                'message' => 'La permission a été modifiée avec succès.'
+            ];
+        } else {
+            $permission->save();
+
+            $response = [
+                'success' => true,
+                'message' => 'La permission a été créée avec succès.'
+            ];
+        }
+
+        // return response()->json($response);
+        return json_encode($response);
     }
 }

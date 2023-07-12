@@ -6,6 +6,10 @@ var KTDatatablesServerSide = (function () {
     var dt;
     var url = $("#kt_datatable_example_1").attr("action");
     var urlForm = $("#open_permission_modal_id").attr("action");
+    // var t, e, n;
+    var e;
+    const modalDiv = document.getElementById("kt_modal_add_permission"),
+    modal = new bootstrap.Modal(modalDiv);
     // console.log(urlForm);
 
     // Private functions
@@ -113,38 +117,8 @@ var KTDatatablesServerSide = (function () {
         });
     };
 
-    // $(`.open_permission_modal`).on("click", function () {
-    //     // alert('DKSODK')
-
-    //     console.log($(this).attr("action"));
-
-    //     // set ajax request
-    //     $.ajax({
-    //         // AJAX Call options
-    //         url: $(this).attr("action"),
-    //         type: "POST",
-    //         data: {
-    //             dataRowID: $(this).attr("data-row-id"),
-    //         },
-    //         // CSRF verification
-    //         headers: {
-    //             "X-CSRF-TOKEN": $('meta[name="csrf-token"]').attr("content"),
-    //         },
-    //         // On 'Success' Event
-    //         success: function (data) {
-    //             // Process only if any data has been loaded
-    //             if (data) {
-    //                 $(
-    //                     `#kt_modal_add_permission #kt_modal_add_permission_content`
-    //                 ).html(data);
-    //             } // End if
-    //         }, // End success event
-    //     });
-    // });
-
+    // Open modal
     $(document).on("click", `.open_permission_modal`, function () {
-        console.log($(this).attr("action"));
-
         // set ajax request
         $.ajax({
             // AJAX Call options
@@ -165,41 +139,170 @@ var KTDatatablesServerSide = (function () {
                         `#kt_modal_add_permission #kt_modal_add_permission_content`
                     ).html(data);
                 } // End if
+                 e = modalDiv.querySelector(
+                            "#kt_modal_add_permission #permissionFormID"
+                        )
+                // (t = document.getElementById("kt_modal_add_permission")),
+                //     (e = t.querySelector(
+                //         "#kt_modal_add_permission #permissionFormID"
+                //     )),
+                //     (n = new bootstrap.Modal(t));
+
+                formValidation();
             }, // End success event
         });
     });
 
-    // Filter Datatable
-    // var handleFilterDatatable = () => {
-    //     // Select filter options
-    //     filterPayment = document.querySelectorAll(
-    //         '[data-kt-permissions-table-filter="payment_type"] [name="payment_type"]'
-    //     );
-    //     const filterButton = document.querySelector(
-    //         '[data-kt-permissions-table-filter="filter"]'
-    //     );
+    var formValidation = () => {
+        var o = FormValidation.formValidation(e, {
+            fields: {
+                name: {
+                    validators: {
+                        notEmpty: {
+                            message: "Le nom de la permission est requis",
+                        },
+                    },
+                },
+            },
+            plugins: {
+                trigger: new FormValidation.plugins.Trigger(),
+                bootstrap: new FormValidation.plugins.Bootstrap5({
+                    rowSelector: ".fv-row",
+                    eleInvalidClass: "",
+                    eleValidClass: "",
+                }),
+            },
+        });
+        modalDiv
+            .querySelector('[data-kt-permissions-modal-action="close"]')
+            .addEventListener("click", (t) => {
+                t.preventDefault(),
+                    Swal.fire({
+                        text: "Êtes-vous sûr de vouloir fermer?",
+                        icon: "warning",
+                        showCancelButton: !0,
+                        buttonsStyling: !1,
+                        confirmButtonText: "Oui, fermer !",
+                        cancelButtonText: "Non, retourner",
+                        customClass: {
+                            confirmButton: "btn btn-primary",
+                            cancelButton: "btn btn-active-light",
+                        },
+                    }).then(function (t) {
+                        modalDiv.value && modal.hide();
+                    });
+            }),
+            modalDiv
+                .querySelector('[data-kt-permissions-modal-action="cancel"]')
+                .addEventListener("click", (modalDiv) => {
+                    modalDiv.preventDefault(),
+                        Swal.fire({
+                            text: "Êtes-vous sûr de vouloir annuler ?",
+                            icon: "warning",
+                            showCancelButton: !0,
+                            buttonsStyling: !1,
+                            confirmButtonText: "Oui, annulez !",
+                            cancelButtonText: "Non, retourner",
+                            customClass: {
+                                confirmButton: "btn btn-primary",
+                                cancelButton: "btn btn-active-light",
+                            },
+                        }).then(function (modalDiv) {
+                            modalDiv.value
+                                ? (e.reset(), modal.hide())
+                                : "cancel" === modalDiv.dismiss &&
+                                  Swal.fire({
+                                      text: "Votre formulaire n'a pas été annulé !.",
+                                      icon: "error",
+                                      buttonsStyling: !1,
+                                      confirmButtonText: "Ok, got it!",
+                                      customClass: {
+                                          confirmButton: "btn btn-primary",
+                                      },
+                                  });
+                        });
+                });
 
-    //     // Filter datatable on submit
-    //     filterButton.addEventListener("click", function () {
-    //         // Get filter values
-    //         let paymentValue = "";
+        const i = modalDiv.querySelector(
+            '[data-kt-permissions-modal-action="submit"]'
+        );
 
-    //         // Get payment value
-    //         filterPayment.forEach((r) => {
-    //             if (r.checked) {
-    //                 paymentValue = r.value;
-    //             }
+        i.addEventListener("click", function (modalDiv) {
+            modalDiv.preventDefault(),
+                o &&
+                    o.validate().then(function (modalDiv) {
+                        i.setAttribute("data-kt-indicator", "on"),
+                            (i.disabled = !0);
+                        let formElement = $(`#permissionFormID`),
+                            formData = new FormData(formElement[0]);
+                        formData.append(
+                            "_token",
+                            $('meta[name="csrf-token"]').attr("content")
+                        ); // Ajoute le jeton CSRF au FormData
 
-    //             // Reset payment value if "All" is selected
-    //             if (paymentValue === "all") {
-    //                 paymentValue = "";
-    //             }
-    //         });
+                        $.ajax({
+                            url: $("#submitPermission").attr("action"), // URL de la route de connexion
+                            type: "POST",
+                            data: formData,
+                            processData: false,
+                            contentType: false,
+                            success: function (response) {
+                                var data = JSON.parse(response);
+                                if (data.success) {
+                                    // hide modal
+                                    modal.hide();
 
-    //         // Filter datatable --- official docs reference: https://datatables.net/reference/api/search()
-    //         dt.search(paymentValue).draw();
-    //     });
-    // };
+                                    toastr.success(data.message);
+                                    dt.draw();
+
+                                } // end if
+                                else {
+                                    toastr.error(data.message);
+                                    i.removeAttribute("data-kt-indicator"),(i.disabled = !1)
+                                }
+                            },
+                            error: function (xhr, status, error) {
+                            },
+                        });
+
+                        // "Valid" == modalDiv
+                        //                 ? (i.setAttribute(
+                        //                       "data-kt-indicator",
+                        //                       "on"
+                        //                   ),
+                        //                   (i.disabled = !0),
+                        //                   setTimeout(function () {
+                        //                       i.removeAttribute(
+                        //                           "data-kt-indicator"
+                        //                       ),
+                        //                           (i.disabled = !1),
+                        //                           Swal.fire({
+                        //                               text: "Form has been successfully submitted!",
+                        //                               icon: "success",
+                        //                               buttonsStyling: !1,
+                        //                               confirmButtonText:
+                        //                                   "Ok, got it!",
+                        //                               customClass: {
+                        //                                   confirmButton:
+                        //                                       "btn btn-primary",
+                        //                               },
+                        //                           }).then(function (t) {
+                        //                               t.isConfirmed && n.hide();
+                        //                           });
+                        //                   }, 2e3))
+                        //                 : Swal.fire({
+                        //                       text: "Sorry, looks like there are some errors detected, please try again.",
+                        //                       icon: "error",
+                        //                       buttonsStyling: !1,
+                        //                       confirmButtonText: "Ok, got it!",
+                        //                       customClass: {
+                        //                           confirmButton:
+                        //                               "btn btn-primary",
+                        //                       },
+                        //                   });
+                    });
+        });
+    };
 
     // Public methods
     return {
