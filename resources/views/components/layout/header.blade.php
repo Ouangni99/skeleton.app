@@ -44,7 +44,7 @@
                             class="menu-item here show menu-here-bg menu-lg-down-accordion me-0 me-lg-2">
                             <!--begin:Menu link-->
                             <span class="menu-link">
-                                <span class="menu-title">Dashboards</span>
+                                <span class="menu-title text-uppercase fs-6">Dashboards</span>
                                 <span class="menu-arrow d-lg-none"></span>
                             </span>
                             <!--end:Menu link-->
@@ -245,116 +245,6 @@
                                                 <!--end:Col-->
                                             </div>
                                             <!--end:Row-->
-                                            <div class="separator separator-dashed mx-5 my-5"></div>
-                                            <!--begin:Landing-->
-                                            <div class="d-flex flex-stack flex-wrap flex-lg-nowrap gap-2 mx-5">
-                                                <div class="d-flex flex-column me-5">
-                                                    <div class="fs-6 fw-bold text-gray-800">Landing Page Template</div>
-                                                    <div class="fs-7 fw-semibold text-muted">Onpe page landing template
-                                                        with pricing & others</div>
-                                                </div>
-                                                <a href="../../demo37/dist/landing.html"
-                                                    class="btn btn-sm btn-primary fw-bold">Explore</a>
-                                            </div>
-                                            <!--end:Landing-->
-                                        </div>
-                                        <!--end:Col-->
-                                        <!--begin:Col-->
-                                        <div class="menu-more bg-light col-lg-4 py-3 px-3 py-lg-6 px-lg-6 rounded-end">
-                                            <!--begin:Heading-->
-                                            <h4 class="fs-6 fs-lg-4 text-gray-800 fw-bold mt-3 mb-3 ms-4">More
-                                                Dashboards</h4>
-                                            <!--end:Heading-->
-                                            <!--begin:Menu item-->
-                                            <div class="menu-item p-0 m-0">
-                                                <!--begin:Menu link-->
-                                                <a href="../../demo37/dist/dashboards/logistics.html"
-                                                    class="menu-link py-2">
-                                                    <span class="menu-title">Logistics</span>
-                                                </a>
-                                                <!--end:Menu link-->
-                                            </div>
-                                            <!--end:Menu item-->
-                                            <!--begin:Menu item-->
-                                            <div class="menu-item p-0 m-0">
-                                                <!--begin:Menu link-->
-                                                <a href="../../demo37/dist/dashboards/website-analytics.html"
-                                                    class="menu-link py-2">
-                                                    <span class="menu-title">Website Analytics</span>
-                                                </a>
-                                                <!--end:Menu link-->
-                                            </div>
-                                            <!--end:Menu item-->
-                                            <!--begin:Menu item-->
-                                            <div class="menu-item p-0 m-0">
-                                                <!--begin:Menu link-->
-                                                <a href="../../demo37/dist/dashboards/finance-performance.html"
-                                                    class="menu-link py-2">
-                                                    <span class="menu-title">Finance Performance</span>
-                                                </a>
-                                                <!--end:Menu link-->
-                                            </div>
-                                            <!--end:Menu item-->
-                                            <!--begin:Menu item-->
-                                            <div class="menu-item p-0 m-0">
-                                                <!--begin:Menu link-->
-                                                <a href="../../demo37/dist/dashboards/store-analytics.html"
-                                                    class="menu-link py-2">
-                                                    <span class="menu-title">Store Analytics</span>
-                                                </a>
-                                                <!--end:Menu link-->
-                                            </div>
-                                            <!--end:Menu item-->
-                                            <!--begin:Menu item-->
-                                            <div class="menu-item p-0 m-0">
-                                                <!--begin:Menu link-->
-                                                <a href="../../demo37/dist/dashboards/social.html"
-                                                    class="menu-link py-2">
-                                                    <span class="menu-title">Social</span>
-                                                </a>
-                                                <!--end:Menu link-->
-                                            </div>
-                                            <!--end:Menu item-->
-                                            <!--begin:Menu item-->
-                                            <div class="menu-item p-0 m-0">
-                                                <!--begin:Menu link-->
-                                                <a href="../../demo37/dist/dashboards/delivery.html"
-                                                    class="menu-link py-2">
-                                                    <span class="menu-title">Delivery</span>
-                                                </a>
-                                                <!--end:Menu link-->
-                                            </div>
-                                            <!--end:Menu item-->
-                                            <!--begin:Menu item-->
-                                            <div class="menu-item p-0 m-0">
-                                                <!--begin:Menu link-->
-                                                <a href="../../demo37/dist/dashboards/crypto.html"
-                                                    class="menu-link py-2">
-                                                    <span class="menu-title">Crypto</span>
-                                                </a>
-                                                <!--end:Menu link-->
-                                            </div>
-                                            <!--end:Menu item-->
-                                            <!--begin:Menu item-->
-                                            <div class="menu-item p-0 m-0">
-                                                <!--begin:Menu link-->
-                                                <a href="../../demo37/dist/dashboards/school.html"
-                                                    class="menu-link py-2">
-                                                    <span class="menu-title">School</span>
-                                                </a>
-                                                <!--end:Menu link-->
-                                            </div>
-                                            <!--end:Menu item-->
-                                            <!--begin:Menu item-->
-                                            <div class="menu-item p-0 m-0">
-                                                <!--begin:Menu link-->
-                                                <a href="../../demo37/dist/dashboards/podcast.html"
-                                                    class="menu-link py-2">
-                                                    <span class="menu-title">Podcast</span>
-                                                </a>
-                                                <!--end:Menu link-->
-                                            </div>
-                                            <!--end:Menu item-->
                                         </div>
                                         <!--end:Col-->
                                     </div>
@@ -367,1379 +257,18 @@
                         <!--end:Menu item-->
                         <!--begin:Menu item-->
                         <div data-kt-menu-trigger="{default: 'click', lg: 'hover'}"
-                            data-kt-menu-placement="bottom-start" data-kt-menu-offset="-300,0"
-                            class="menu-item menu-lg-down-accordion me-0 me-lg-2">
-                            <!--begin:Menu link-->
-                            <span class="menu-link">
-                                <span class="menu-title">Pages</span>
-                                <span class="menu-arrow d-lg-none"></span>
-                            </span>
-                            <!--end:Menu link-->
-                            <!--begin:Menu sub-->
-                            <div class="menu-sub menu-sub-lg-down-accordion menu-sub-lg-dropdown p-0">
-                                <!--begin:Pages menu-->
-                                <div class="menu-active-bg px-4 px-lg-0">
-                                    <!--begin:Tabs nav-->
-                                    <div class="d-flex w-100 overflow-auto">
-                                        <ul
-                                            class="nav nav-stretch nav-line-tabs fw-bold fs-6 p-0 p-lg-10 flex-nowrap flex-grow-1">
-                                            <!--begin:Nav item-->
-                                            <li class="nav-item mx-lg-1">
-                                                <a class="nav-link py-3 py-lg-6 active text-active-primary"
-                                                    href="#" data-bs-toggle="tab"
-                                                    data-bs-target="#kt_app_header_menu_pages_pages">General</a>
-                                            </li>
-                                            <!--end:Nav item-->
-                                            <!--begin:Nav item-->
-                                            <li class="nav-item mx-lg-1">
-                                                <a class="nav-link py-3 py-lg-6 text-active-primary" href="#"
-                                                    data-bs-toggle="tab"
-                                                    data-bs-target="#kt_app_header_menu_pages_account">Account</a>
-                                            </li>
-                                            <!--end:Nav item-->
-                                            <!--begin:Nav item-->
-                                            <li class="nav-item mx-lg-1">
-                                                <a class="nav-link py-3 py-lg-6 text-active-primary" href="#"
-                                                    data-bs-toggle="tab"
-                                                    data-bs-target="#kt_app_header_menu_pages_authentication">Authentication</a>
-                                            </li>
-                                            <!--end:Nav item-->
-                                            <!--begin:Nav item-->
-                                            <li class="nav-item mx-lg-1">
-                                                <a class="nav-link py-3 py-lg-6 text-active-primary" href="#"
-                                                    data-bs-toggle="tab"
-                                                    data-bs-target="#kt_app_header_menu_pages_utilities">Utilities</a>
-                                            </li>
-                                            <!--end:Nav item-->
-                                            <!--begin:Nav item-->
-                                            <li class="nav-item mx-lg-1">
-                                                <a class="nav-link py-3 py-lg-6 text-active-primary" href="#"
-                                                    data-bs-toggle="tab"
-                                                    data-bs-target="#kt_app_header_menu_pages_widgets">Widgets</a>
-                                            </li>
-                                            <!--end:Nav item-->
-                                        </ul>
-                                    </div>
-                                    <!--end:Tabs nav-->
-                                    <!--begin:Tab content-->
-                                    <div class="tab-content py-4 py-lg-8 px-lg-7">
-                                        <!--begin:Tab pane-->
-                                        <div class="tab-pane active w-lg-1000px" id="kt_app_header_menu_pages_pages">
-                                            <!--begin:Row-->
-                                            <div class="row">
-                                                <!--begin:Col-->
-                                                <div class="col-lg-8">
-                                                    <!--begin:Row-->
-                                                    <div class="row">
-                                                        <!--begin:Col-->
-                                                        <div class="col-lg-3 mb-6 mb-lg-0">
-                                                            <!--begin:Menu heading-->
-                                                            <h4 class="fs-6 fs-lg-4 fw-bold mb-3 ms-4">User Profile
-                                                            </h4>
-                                                            <!--end:Menu heading-->
-                                                            <!--begin:Menu item-->
-                                                            <div class="menu-item p-0 m-0">
-                                                                <!--begin:Menu link-->
-                                                                <a href="../../demo37/dist/pages/user-profile/overview.html"
-                                                                    class="menu-link">
-                                                                    <span class="menu-title">Overview</span>
-                                                                </a>
-                                                                <!--end:Menu link-->
-                                                            </div>
-                                                            <!--end:Menu item-->
-                                                            <!--begin:Menu item-->
-                                                            <div class="menu-item p-0 m-0">
-                                                                <!--begin:Menu link-->
-                                                                <a href="../../demo37/dist/pages/user-profile/projects.html"
-                                                                    class="menu-link">
-                                                                    <span class="menu-title">Projects</span>
-                                                                </a>
-                                                                <!--end:Menu link-->
-                                                            </div>
-                                                            <!--end:Menu item-->
-                                                            <!--begin:Menu item-->
-                                                            <div class="menu-item p-0 m-0">
-                                                                <!--begin:Menu link-->
-                                                                <a href="../../demo37/dist/pages/user-profile/campaigns.html"
-                                                                    class="menu-link">
-                                                                    <span class="menu-title">Campaigns</span>
-                                                                </a>
-                                                                <!--end:Menu link-->
-                                                            </div>
-                                                            <!--end:Menu item-->
-                                                            <!--begin:Menu item-->
-                                                            <div class="menu-item p-0 m-0">
-                                                                <!--begin:Menu link-->
-                                                                <a href="../../demo37/dist/pages/user-profile/documents.html"
-                                                                    class="menu-link">
-                                                                    <span class="menu-title">Documents</span>
-                                                                </a>
-                                                                <!--end:Menu link-->
-                                                            </div>
-                                                            <!--end:Menu item-->
-                                                            <!--begin:Menu item-->
-                                                            <div class="menu-item p-0 m-0">
-                                                                <!--begin:Menu link-->
-                                                                <a href="../../demo37/dist/pages/user-profile/followers.html"
-                                                                    class="menu-link">
-                                                                    <span class="menu-title">Followers</span>
-                                                                </a>
-                                                                <!--end:Menu link-->
-                                                            </div>
-                                                            <!--end:Menu item-->
-                                                            <!--begin:Menu item-->
-                                                            <div class="menu-item p-0 m-0">
-                                                                <!--begin:Menu link-->
-                                                                <a href="../../demo37/dist/pages/user-profile/activity.html"
-                                                                    class="menu-link">
-                                                                    <span class="menu-title">Activity</span>
-                                                                </a>
-                                                                <!--end:Menu link-->
-                                                            </div>
-                                                            <!--end:Menu item-->
-                                                        </div>
-                                                        <!--end:Col-->
-                                                        <!--begin:Col-->
-                                                        <div class="col-lg-3 mb-6 mb-lg-0">
-                                                            <!--begin:Menu section-->
-                                                            <div class="mb-6">
-                                                                <!--begin:Menu heading-->
-                                                                <h4 class="fs-6 fs-lg-4 fw-bold mb-3 ms-4">Corporate
-                                                                </h4>
-                                                                <!--end:Menu heading-->
-                                                                <!--begin:Menu item-->
-                                                                <div class="menu-item p-0 m-0">
-                                                                    <!--begin:Menu link-->
-                                                                    <a href="../../demo37/dist/pages/about.html"
-                                                                        class="menu-link">
-                                                                        <span class="menu-title">About</span>
-                                                                    </a>
-                                                                    <!--end:Menu link-->
-                                                                </div>
-                                                                <!--end:Menu item-->
-                                                                <!--begin:Menu item-->
-                                                                <div class="menu-item p-0 m-0">
-                                                                    <!--begin:Menu link-->
-                                                                    <a href="../../demo37/dist/pages/team.html"
-                                                                        class="menu-link">
-                                                                        <span class="menu-title">Our Team</span>
-                                                                    </a>
-                                                                    <!--end:Menu link-->
-                                                                </div>
-                                                                <!--end:Menu item-->
-                                                                <!--begin:Menu item-->
-                                                                <div class="menu-item p-0 m-0">
-                                                                    <!--begin:Menu link-->
-                                                                    <a href="../../demo37/dist/pages/contact.html"
-                                                                        class="menu-link">
-                                                                        <span class="menu-title">Contact Us</span>
-                                                                    </a>
-                                                                    <!--end:Menu link-->
-                                                                </div>
-                                                                <!--end:Menu item-->
-                                                                <!--begin:Menu item-->
-                                                                <div class="menu-item p-0 m-0">
-                                                                    <!--begin:Menu link-->
-                                                                    <a href="../../demo37/dist/pages/licenses.html"
-                                                                        class="menu-link">
-                                                                        <span class="menu-title">Licenses</span>
-                                                                    </a>
-                                                                    <!--end:Menu link-->
-                                                                </div>
-                                                                <!--end:Menu item-->
-                                                                <!--begin:Menu item-->
-                                                                <div class="menu-item p-0 m-0">
-                                                                    <!--begin:Menu link-->
-                                                                    <a href="../../demo37/dist/pages/sitemap.html"
-                                                                        class="menu-link">
-                                                                        <span class="menu-title">Sitemap</span>
-                                                                    </a>
-                                                                    <!--end:Menu link-->
-                                                                </div>
-                                                                <!--end:Menu item-->
-                                                            </div>
-                                                            <!--end:Menu section-->
-                                                            <!--begin:Menu section-->
-                                                            <div class="mb-0">
-                                                                <!--begin:Menu heading-->
-                                                                <h4 class="fs-6 fs-lg-4 fw-bold mb-3 ms-4">Careers</h4>
-                                                                <!--end:Menu heading-->
-                                                                <!--begin:Menu item-->
-                                                                <div class="menu-item p-0 m-0">
-                                                                    <!--begin:Menu link-->
-                                                                    <a href="../../demo37/dist/pages/careers/list.html"
-                                                                        class="menu-link">
-                                                                        <span class="menu-title">Careers List</span>
-                                                                    </a>
-                                                                    <!--end:Menu link-->
-                                                                </div>
-                                                                <!--end:Menu item-->
-                                                                <!--begin:Menu item-->
-                                                                <div class="menu-item p-0 m-0">
-                                                                    <!--begin:Menu link-->
-                                                                    <a href="../../demo37/dist/pages/careers/apply.html"
-                                                                        class="menu-link">
-                                                                        <span class="menu-title">Careers Apply</span>
-                                                                    </a>
-                                                                    <!--end:Menu link-->
-                                                                </div>
-                                                                <!--end:Menu item-->
-                                                            </div>
-                                                            <!--end:Menu section-->
-                                                        </div>
-                                                        <!--end:Col-->
-                                                        <!--begin:Col-->
-                                                        <div class="col-lg-3 mb-6 mb-lg-0">
-                                                            <!--begin:Menu section-->
-                                                            <div class="mb-6">
-                                                                <!--begin:Menu heading-->
-                                                                <h4 class="fs-6 fs-lg-4 fw-bold mb-3 ms-4">FAQ</h4>
-                                                                <!--end:Menu heading-->
-                                                                <!--begin:Menu item-->
-                                                                <div class="menu-item p-0 m-0">
-                                                                    <!--begin:Menu link-->
-                                                                    <a href="../../demo37/dist/pages/faq/classic.html"
-                                                                        class="menu-link">
-                                                                        <span class="menu-title">FAQ Classic</span>
-                                                                    </a>
-                                                                    <!--end:Menu link-->
-                                                                </div>
-                                                                <!--end:Menu item-->
-                                                                <!--begin:Menu item-->
-                                                                <div class="menu-item p-0 m-0">
-                                                                    <!--begin:Menu link-->
-                                                                    <a href="../../demo37/dist/pages/faq/extended.html"
-                                                                        class="menu-link">
-                                                                        <span class="menu-title">FAQ Extended</span>
-                                                                    </a>
-                                                                    <!--end:Menu link-->
-                                                                </div>
-                                                                <!--end:Menu item-->
-                                                            </div>
-                                                            <!--end:Menu section-->
-                                                            <!--begin:Menu section-->
-                                                            <div class="mb-6">
-                                                                <!--begin:Menu heading-->
-                                                                <h4 class="fs-6 fs-lg-4 fw-bold mb-3 ms-4">Blog</h4>
-                                                                <!--end:Menu heading-->
-                                                                <!--begin:Menu item-->
-                                                                <div class="menu-item p-0 m-0">
-                                                                    <!--begin:Menu link-->
-                                                                    <a href="../../demo37/dist/pages/blog/dashboard.html"
-                                                                        class="menu-link">
-                                                                        <span class="menu-title">Blog Dashboard</span>
-                                                                    </a>
-                                                                    <!--end:Menu link-->
-                                                                </div>
-                                                                <!--end:Menu item-->
-                                                                <!--begin:Menu item-->
-                                                                <div class="menu-item p-0 m-0">
-                                                                    <!--begin:Menu link-->
-                                                                    <a href="../../demo37/dist/pages/blog/post.html"
-                                                                        class="menu-link">
-                                                                        <span class="menu-title">Blog Post</span>
-                                                                    </a>
-                                                                    <!--end:Menu link-->
-                                                                </div>
-                                                                <!--end:Menu item-->
-                                                            </div>
-                                                            <!--end:Menu section-->
-                                                            <!--begin:Menu section-->
-                                                            <div class="mb-0">
-                                                                <!--begin:Menu heading-->
-                                                                <h4 class="fs-6 fs-lg-4 fw-bold mb-3 ms-4">Pricing</h4>
-                                                                <!--end:Menu heading-->
-                                                                <!--begin:Menu item-->
-                                                                <div class="menu-item p-0 m-0">
-                                                                    <!--begin:Menu link-->
-                                                                    <a href="../../demo37/dist/pages/pricing/column.html"
-                                                                        class="menu-link">
-                                                                        <span class="menu-title">Column Pricing</span>
-                                                                    </a>
-                                                                    <!--end:Menu link-->
-                                                                </div>
-                                                                <!--end:Menu item-->
-                                                                <!--begin:Menu item-->
-                                                                <div class="menu-item p-0 m-0">
-                                                                    <!--begin:Menu link-->
-                                                                    <a href="../../demo37/dist/pages/pricing/table.html"
-                                                                        class="menu-link">
-                                                                        <span class="menu-title">Table Pricing</span>
-                                                                    </a>
-                                                                    <!--end:Menu link-->
-                                                                </div>
-                                                                <!--end:Menu item-->
-                                                            </div>
-                                                            <!--end:Menu section-->
-                                                        </div>
-                                                        <!--end:Col-->
-                                                        <!--begin:Col-->
-                                                        <div class="col-lg-3 mb-6 mb-lg-0">
-                                                            <!--begin:Menu section-->
-                                                            <div class="mb-0">
-                                                                <!--begin:Menu heading-->
-                                                                <h4 class="fs-6 fs-lg-4 fw-bold mb-3 ms-4">Social</h4>
-                                                                <!--end:Menu heading-->
-                                                                <!--begin:Menu item-->
-                                                                <div class="menu-item p-0 m-0">
-                                                                    <!--begin:Menu link-->
-                                                                    <a href="../../demo37/dist/pages/social/feeds.html"
-                                                                        class="menu-link">
-                                                                        <span class="menu-title">Feeds</span>
-                                                                    </a>
-                                                                    <!--end:Menu link-->
-                                                                </div>
-                                                                <!--end:Menu item-->
-                                                                <!--begin:Menu item-->
-                                                                <div class="menu-item p-0 m-0">
-                                                                    <!--begin:Menu link-->
-                                                                    <a href="../../demo37/dist/pages/social/activity.html"
-                                                                        class="menu-link">
-                                                                        <span class="menu-title">Activty</span>
-                                                                    </a>
-                                                                    <!--end:Menu link-->
-                                                                </div>
-                                                                <!--end:Menu item-->
-                                                                <!--begin:Menu item-->
-                                                                <div class="menu-item p-0 m-0">
-                                                                    <!--begin:Menu link-->
-                                                                    <a href="../../demo37/dist/pages/social/followers.html"
-                                                                        class="menu-link">
-                                                                        <span class="menu-title">Followers</span>
-                                                                    </a>
-                                                                    <!--end:Menu link-->
-                                                                </div>
-                                                                <!--end:Menu item-->
-                                                                <!--begin:Menu item-->
-                                                                <div class="menu-item p-0 m-0">
-                                                                    <!--begin:Menu link-->
-                                                                    <a href="../../demo37/dist/pages/social/settings.html"
-                                                                        class="menu-link">
-                                                                        <span class="menu-title">Settings</span>
-                                                                    </a>
-                                                                    <!--end:Menu link-->
-                                                                </div>
-                                                                <!--end:Menu item-->
-                                                            </div>
-                                                            <!--end:Menu section-->
-                                                        </div>
-                                                        <!--end:Col-->
-                                                    </div>
-                                                    <!--end:Row-->
-                                                </div>
-                                                <!--end:Col-->
-                                                <!--begin:Col-->
-                                                {{-- <div class="col-lg-4">
-                                                    <img src="assets/media/stock/600x600/img-82.jpg"
-                                                        class="rounded mw-100" alt="" />
-                                                </div> --}}
-                                                <!--end:Col-->
-                                            </div>
-                                            <!--end:Row-->
-                                        </div>
-                                        <!--end:Tab pane-->
-                                        <!--begin:Tab pane-->
-                                        <div class="tab-pane w-lg-600px" id="kt_app_header_menu_pages_account">
-                                            <!--begin:Row-->
-                                            <div class="row">
-                                                <!--begin:Col-->
-                                                <div class="col-lg-5 mb-6 mb-lg-0">
-                                                    <!--begin:Row-->
-                                                    <div class="row">
-                                                        <!--begin:Col-->
-                                                        <div class="col-lg-6">
-                                                            <!--begin:Menu item-->
-                                                            <div class="menu-item p-0 m-0">
-                                                                <!--begin:Menu link-->
-                                                                <a href="../../demo37/dist/account/overview.html"
-                                                                    class="menu-link">
-                                                                    <span class="menu-title">Overview</span>
-                                                                </a>
-                                                                <!--end:Menu link-->
-                                                            </div>
-                                                            <!--end:Menu item-->
-                                                            <!--begin:Menu item-->
-                                                            <div class="menu-item p-0 m-0">
-                                                                <!--begin:Menu link-->
-                                                                <a href="javascript:;"
-                                                                    class="menu-link">
-                                                                    <span class="menu-title">Settings</span>
-                                                                </a>
-                                                                <!--end:Menu link-->
-                                                            </div>
-                                                            <!--end:Menu item-->
-                                                            <!--begin:Menu item-->
-                                                            <div class="menu-item p-0 m-0">
-                                                                <!--begin:Menu link-->
-                                                                <a href="../../demo37/dist/account/security.html"
-                                                                    class="menu-link">
-                                                                    <span class="menu-title">Security</span>
-                                                                </a>
-                                                                <!--end:Menu link-->
-                                                            </div>
-                                                            <!--end:Menu item-->
-                                                            <!--begin:Menu item-->
-                                                            <div class="menu-item p-0 m-0">
-                                                                <!--begin:Menu link-->
-                                                                <a href="../../demo37/dist/account/activity.html"
-                                                                    class="menu-link">
-                                                                    <span class="menu-title">Activity</span>
-                                                                </a>
-                                                                <!--end:Menu link-->
-                                                            </div>
-                                                            <!--end:Menu item-->
-                                                            <!--begin:Menu item-->
-                                                            <div class="menu-item p-0 m-0">
-                                                                <!--begin:Menu link-->
-                                                                <a href="../../demo37/dist/account/billing.html"
-                                                                    class="menu-link">
-                                                                    <span class="menu-title">Billing</span>
-                                                                </a>
-                                                                <!--end:Menu link-->
-                                                            </div>
-                                                            <!--end:Menu item-->
-                                                        </div>
-                                                        <!--end:Col-->
-                                                        <!--begin:Col-->
-                                                        <div class="col-lg-6">
-                                                            <!--begin:Menu item-->
-                                                            <div class="menu-item p-0 m-0">
-                                                                <!--begin:Menu link-->
-                                                                <a href="../../demo37/dist/account/statements.html"
-                                                                    class="menu-link">
-                                                                    <span class="menu-title">Statements</span>
-                                                                </a>
-                                                                <!--end:Menu link-->
-                                                            </div>
-                                                            <!--end:Menu item-->
-                                                            <!--begin:Menu item-->
-                                                            <div class="menu-item p-0 m-0">
-                                                                <!--begin:Menu link-->
-                                                                <a href="../../demo37/dist/account/referrals.html"
-                                                                    class="menu-link">
-                                                                    <span class="menu-title">Referrals</span>
-                                                                </a>
-                                                                <!--end:Menu link-->
-                                                            </div>
-                                                            <!--end:Menu item-->
-                                                            <!--begin:Menu item-->
-                                                            <div class="menu-item p-0 m-0">
-                                                                <!--begin:Menu link-->
-                                                                <a href="../../demo37/dist/account/api-keys.html"
-                                                                    class="menu-link">
-                                                                    <span class="menu-title">API Keys</span>
-                                                                </a>
-                                                                <!--end:Menu link-->
-                                                            </div>
-                                                            <!--end:Menu item-->
-                                                            <!--begin:Menu item-->
-                                                            <div class="menu-item p-0 m-0">
-                                                                <!--begin:Menu link-->
-                                                                <a href="../../demo37/dist/account/logs.html"
-                                                                    class="menu-link">
-                                                                    <span class="menu-title">Logs</span>
-                                                                </a>
-                                                                <!--end:Menu link-->
-                                                            </div>
-                                                            <!--end:Menu item-->
-                                                        </div>
-                                                        <!--end:Col-->
-                                                    </div>
-                                                    <!--end:Row-->
-                                                </div>
-                                                <!--end:Col-->
-                                                <!--begin:Col-->
-                                                {{-- <div class="col-lg-7">
-                                                    <img src="assets/media/stock/900x600/46.jpg"
-                                                        class="rounded mw-100" alt="" />
-                                                </div> --}}
-                                                <!--end:Col-->
-                                            </div>
-                                            <!--end:Row-->
-                                        </div>
-                                        <!--end:Tab pane-->
-                                        <!--begin:Tab pane-->
-                                        <div class="tab-pane w-lg-1000px"
-                                            id="kt_app_header_menu_pages_authentication">
-                                            <!--begin:Row-->
-                                            <div class="row">
-                                                <!--begin:Col-->
-                                                <div class="col-lg-3 mb-6 mb-lg-0">
-                                                    <!--begin:Menu section-->
-                                                    <div class="mb-6">
-                                                        <!--begin:Menu heading-->
-                                                        <h4 class="fs-6 fs-lg-4 fw-bold mb-3 ms-4">Corporate Layout
-                                                        </h4>
-                                                        <!--end:Menu heading-->
-                                                        <!--begin:Menu item-->
-                                                        <div class="menu-item p-0 m-0">
-                                                            <!--begin:Menu link-->
-                                                            <a href="../../demo37/dist/authentication/layouts/corporate/sign-in.html"
-                                                                class="menu-link">
-                                                                <span class="menu-title">Sign-In</span>
-                                                            </a>
-                                                            <!--end:Menu link-->
-                                                        </div>
-                                                        <!--end:Menu item-->
-                                                        <!--begin:Menu item-->
-                                                        <div class="menu-item p-0 m-0">
-                                                            <!--begin:Menu link-->
-                                                            <a href="../../demo37/dist/authentication/layouts/corporate/sign-up.html"
-                                                                class="menu-link">
-                                                                <span class="menu-title">Sign-Up</span>
-                                                            </a>
-                                                            <!--end:Menu link-->
-                                                        </div>
-                                                        <!--end:Menu item-->
-                                                        <!--begin:Menu item-->
-                                                        <div class="menu-item p-0 m-0">
-                                                            <!--begin:Menu link-->
-                                                            <a href="../../demo37/dist/authentication/layouts/corporate/two-factor.html"
-                                                                class="menu-link">
-                                                                <span class="menu-title">Two-Factor</span>
-                                                            </a>
-                                                            <!--end:Menu link-->
-                                                        </div>
-                                                        <!--end:Menu item-->
-                                                        <!--begin:Menu item-->
-                                                        <div class="menu-item p-0 m-0">
-                                                            <!--begin:Menu link-->
-                                                            <a href="../../demo37/dist/authentication/layouts/corporate/reset-password.html"
-                                                                class="menu-link">
-                                                                <span class="menu-title">Reset Password</span>
-                                                            </a>
-                                                            <!--end:Menu link-->
-                                                        </div>
-                                                        <!--end:Menu item-->
-                                                        <!--begin:Menu item-->
-                                                        <div class="menu-item p-0 m-0">
-                                                            <!--begin:Menu link-->
-                                                            <a href="../../demo37/dist/authentication/layouts/corporate/new-password.html"
-                                                                class="menu-link">
-                                                                <span class="menu-title">New Password</span>
-                                                            </a>
-                                                            <!--end:Menu link-->
-                                                        </div>
-                                                        <!--end:Menu item-->
-                                                    </div>
-                                                    <!--end:Menu section-->
-                                                    <!--begin:Menu section-->
-                                                    <div class="mb-0">
-                                                        <!--begin:Menu heading-->
-                                                        <h4 class="fs-6 fs-lg-4 fw-bold mb-3 ms-4">Overlay Layout</h4>
-                                                        <!--end:Menu heading-->
-                                                        <!--begin:Menu item-->
-                                                        <div class="menu-item p-0 m-0">
-                                                            <!--begin:Menu link-->
-                                                            <a href="../../demo37/dist/authentication/layouts/overlay/sign-in.html"
-                                                                class="menu-link">
-                                                                <span class="menu-title">Sign-In</span>
-                                                            </a>
-                                                            <!--end:Menu link-->
-                                                        </div>
-                                                        <!--end:Menu item-->
-                                                        <!--begin:Menu item-->
-                                                        <div class="menu-item p-0 m-0">
-                                                            <!--begin:Menu link-->
-                                                            <a href="../../demo37/dist/authentication/layouts/overlay/sign-up.html"
-                                                                class="menu-link">
-                                                                <span class="menu-title">Sign-Up</span>
-                                                            </a>
-                                                            <!--end:Menu link-->
-                                                        </div>
-                                                        <!--end:Menu item-->
-                                                        <!--begin:Menu item-->
-                                                        <div class="menu-item p-0 m-0">
-                                                            <!--begin:Menu link-->
-                                                            <a href="../../demo37/dist/authentication/layouts/overlay/two-factor.html"
-                                                                class="menu-link">
-                                                                <span class="menu-title">Two-Factor</span>
-                                                            </a>
-                                                            <!--end:Menu link-->
-                                                        </div>
-                                                        <!--end:Menu item-->
-                                                        <!--begin:Menu item-->
-                                                        <div class="menu-item p-0 m-0">
-                                                            <!--begin:Menu link-->
-                                                            <a href="../../demo37/dist/authentication/layouts/overlay/reset-password.html"
-                                                                class="menu-link">
-                                                                <span class="menu-title">Reset Password</span>
-                                                            </a>
-                                                            <!--end:Menu link-->
-                                                        </div>
-                                                        <!--end:Menu item-->
-                                                        <!--begin:Menu item-->
-                                                        <div class="menu-item p-0 m-0">
-                                                            <!--begin:Menu link-->
-                                                            <a href="../../demo37/dist/authentication/layouts/overlay/new-password.html"
-                                                                class="menu-link">
-                                                                <span class="menu-title">New Password</span>
-                                                            </a>
-                                                            <!--end:Menu link-->
-                                                        </div>
-                                                        <!--end:Menu item-->
-                                                    </div>
-                                                    <!--end:Menu section-->
-                                                </div>
-                                                <!--end:Col-->
-                                                <!--begin:Col-->
-                                                <div class="col-lg-3 mb-6 mb-lg-0">
-                                                    <!--begin:Menu section-->
-                                                    <div class="mb-6">
-                                                        <!--begin:Menu heading-->
-                                                        <h4 class="fs-6 fs-lg-4 fw-bold mb-3 ms-4">Creative Layout</h4>
-                                                        <!--end:Menu heading-->
-                                                        <!--begin:Menu item-->
-                                                        <div class="menu-item p-0 m-0">
-                                                            <!--begin:Menu link-->
-                                                            <a href="../../demo37/dist/authentication/layouts/creative/sign-in.html"
-                                                                class="menu-link">
-                                                                <span class="menu-title">Sign-in</span>
-                                                            </a>
-                                                            <!--end:Menu link-->
-                                                        </div>
-                                                        <!--end:Menu item-->
-                                                        <!--begin:Menu item-->
-                                                        <div class="menu-item p-0 m-0">
-                                                            <!--begin:Menu link-->
-                                                            <a href="../../demo37/dist/authentication/layouts/creative/sign-up.html"
-                                                                class="menu-link">
-                                                                <span class="menu-title">Sign-up</span>
-                                                            </a>
-                                                            <!--end:Menu link-->
-                                                        </div>
-                                                        <!--end:Menu item-->
-                                                        <!--begin:Menu item-->
-                                                        <div class="menu-item p-0 m-0">
-                                                            <!--begin:Menu link-->
-                                                            <a href="../../demo37/dist/authentication/layouts/creative/two-factor.html"
-                                                                class="menu-link">
-                                                                <span class="menu-title">Two-Factor</span>
-                                                            </a>
-                                                            <!--end:Menu link-->
-                                                        </div>
-                                                        <!--end:Menu item-->
-                                                        <!--begin:Menu item-->
-                                                        <div class="menu-item p-0 m-0">
-                                                            <!--begin:Menu link-->
-                                                            <a href="../../demo37/dist/authentication/layouts/creative/reset-password.html"
-                                                                class="menu-link">
-                                                                <span class="menu-title">Reset Password</span>
-                                                            </a>
-                                                            <!--end:Menu link-->
-                                                        </div>
-                                                        <!--end:Menu item-->
-                                                        <!--begin:Menu item-->
-                                                        <div class="menu-item p-0 m-0">
-                                                            <!--begin:Menu link-->
-                                                            <a href="../../demo37/dist/authentication/layouts/creative/new-password.html"
-                                                                class="menu-link">
-                                                                <span class="menu-title">New Password</span>
-                                                            </a>
-                                                            <!--end:Menu link-->
-                                                        </div>
-                                                        <!--end:Menu item-->
-                                                    </div>
-                                                    <!--end:Menu section-->
-                                                    <!--begin:Menu section-->
-                                                    <div class="mb-6">
-                                                        <!--begin:Menu heading-->
-                                                        <h4 class="fs-6 fs-lg-4 fw-bold mb-3 ms-4">Fancy Layout</h4>
-                                                        <!--end:Menu heading-->
-                                                        <!--begin:Menu item-->
-                                                        <div class="menu-item p-0 m-0">
-                                                            <!--begin:Menu link-->
-                                                            <a href="../../demo37/dist/authentication/layouts/fancy/sign-in.html"
-                                                                class="menu-link">
-                                                                <span class="menu-title">Sign-In</span>
-                                                            </a>
-                                                            <!--end:Menu link-->
-                                                        </div>
-                                                        <!--end:Menu item-->
-                                                        <!--begin:Menu item-->
-                                                        <div class="menu-item p-0 m-0">
-                                                            <!--begin:Menu link-->
-                                                            <a href="../../demo37/dist/authentication/layouts/fancy/sign-up.html"
-                                                                class="menu-link">
-                                                                <span class="menu-title">Sign-Up</span>
-                                                            </a>
-                                                            <!--end:Menu link-->
-                                                        </div>
-                                                        <!--end:Menu item-->
-                                                        <!--begin:Menu item-->
-                                                        <div class="menu-item p-0 m-0">
-                                                            <!--begin:Menu link-->
-                                                            <a href="../../demo37/dist/authentication/layouts/fancy/two-factor.html"
-                                                                class="menu-link">
-                                                                <span class="menu-title">Two-Factor</span>
-                                                            </a>
-                                                            <!--end:Menu link-->
-                                                        </div>
-                                                        <!--end:Menu item-->
-                                                        <!--begin:Menu item-->
-                                                        <div class="menu-item p-0 m-0">
-                                                            <!--begin:Menu link-->
-                                                            <a href="../../demo37/dist/authentication/layouts/fancy/reset-password.html"
-                                                                class="menu-link">
-                                                                <span class="menu-title">Reset Password</span>
-                                                            </a>
-                                                            <!--end:Menu link-->
-                                                        </div>
-                                                        <!--end:Menu item-->
-                                                        <!--begin:Menu item-->
-                                                        <div class="menu-item p-0 m-0">
-                                                            <!--begin:Menu link-->
-                                                            <a href="../../demo37/dist/authentication/layouts/fancy/new-password.html"
-                                                                class="menu-link">
-                                                                <span class="menu-title">New Password</span>
-                                                            </a>
-                                                            <!--end:Menu link-->
-                                                        </div>
-                                                        <!--end:Menu item-->
-                                                    </div>
-                                                    <!--end:Menu section-->
-                                                </div>
-                                                <!--end:Col-->
-                                                <!--begin:Col-->
-                                                <div class="col-lg-3 mb-6 mb-lg-0">
-                                                    <!--begin:Menu section-->
-                                                    <div class="mb-0">
-                                                        <!--begin:Menu heading-->
-                                                        <h4 class="fs-6 fs-lg-4 fw-bold mb-3 ms-4">General</h4>
-                                                        <!--end:Menu heading-->
-                                                        <!--begin:Menu item-->
-                                                        <div class="menu-item p-0 m-0">
-                                                            <!--begin:Menu link-->
-                                                            <a href="../../demo37/dist/authentication/extended/multi-steps-sign-up.html"
-                                                                class="menu-link">
-                                                                <span class="menu-title">Multi-Steps Sign-Up</span>
-                                                            </a>
-                                                            <!--end:Menu link-->
-                                                        </div>
-                                                        <!--end:Menu item-->
-                                                        <!--begin:Menu item-->
-                                                        <div class="menu-item p-0 m-0">
-                                                            <!--begin:Menu link-->
-                                                            <a href="../../demo37/dist/authentication/general/welcome.html"
-                                                                class="menu-link">
-                                                                <span class="menu-title">Welcome Message</span>
-                                                            </a>
-                                                            <!--end:Menu link-->
-                                                        </div>
-                                                        <!--end:Menu item-->
-                                                        <!--begin:Menu item-->
-                                                        <div class="menu-item p-0 m-0">
-                                                            <!--begin:Menu link-->
-                                                            <a href="../../demo37/dist/authentication/general/verify-email.html"
-                                                                class="menu-link">
-                                                                <span class="menu-title">Verify Email</span>
-                                                            </a>
-                                                            <!--end:Menu link-->
-                                                        </div>
-                                                        <!--end:Menu item-->
-                                                        <!--begin:Menu item-->
-                                                        <div class="menu-item p-0 m-0">
-                                                            <!--begin:Menu link-->
-                                                            <a href="../../demo37/dist/authentication/general/coming-soon.html"
-                                                                class="menu-link">
-                                                                <span class="menu-title">Coming Soon</span>
-                                                            </a>
-                                                            <!--end:Menu link-->
-                                                        </div>
-                                                        <!--end:Menu item-->
-                                                        <!--begin:Menu item-->
-                                                        <div class="menu-item p-0 m-0">
-                                                            <!--begin:Menu link-->
-                                                            <a href="../../demo37/dist/authentication/general/password-confirmation.html"
-                                                                class="menu-link">
-                                                                <span class="menu-title">Password Confirmation</span>
-                                                            </a>
-                                                            <!--end:Menu link-->
-                                                        </div>
-                                                        <!--end:Menu item-->
-                                                        <!--begin:Menu item-->
-                                                        <div class="menu-item p-0 m-0">
-                                                            <!--begin:Menu link-->
-                                                            <a href="../../demo37/dist/authentication/general/account-deactivated.html"
-                                                                class="menu-link">
-                                                                <span class="menu-title">Account Deactivation</span>
-                                                            </a>
-                                                            <!--end:Menu link-->
-                                                        </div>
-                                                        <!--end:Menu item-->
-                                                        <!--begin:Menu item-->
-                                                        <div class="menu-item p-0 m-0">
-                                                            <!--begin:Menu link-->
-                                                            <a href="../../demo37/dist/authentication/general/error-404.html"
-                                                                class="menu-link">
-                                                                <span class="menu-title">Error 404</span>
-                                                            </a>
-                                                            <!--end:Menu link-->
-                                                        </div>
-                                                        <!--end:Menu item-->
-                                                        <!--begin:Menu item-->
-                                                        <div class="menu-item p-0 m-0">
-                                                            <!--begin:Menu link-->
-                                                            <a href="../../demo37/dist/authentication/general/error-500.html"
-                                                                class="menu-link">
-                                                                <span class="menu-title">Error 500</span>
-                                                            </a>
-                                                            <!--end:Menu link-->
-                                                        </div>
-                                                        <!--end:Menu item-->
-                                                    </div>
-                                                    <!--end:Menu section-->
-                                                </div>
-                                                <!--end:Col-->
-                                                <!--begin:Col-->
-                                                <div class="col-lg-3 mb-6 mb-lg-0">
-                                                    <!--begin:Menu section-->
-                                                    <div class="mb-0">
-                                                        <!--begin:Menu heading-->
-                                                        <h4 class="fs-6 fs-lg-4 fw-bold mb-3 ms-4">Email Templates</h4>
-                                                        <!--end:Menu heading-->
-                                                        <!--begin:Menu item-->
-                                                        <div class="menu-item p-0 m-0">
-                                                            <!--begin:Menu link-->
-                                                            <a href="../../demo37/dist/authentication/email/welcome-message.html"
-                                                                class="menu-link">
-                                                                <span class="menu-title">Welcome Message</span>
-                                                            </a>
-                                                            <!--end:Menu link-->
-                                                        </div>
-                                                        <!--end:Menu item-->
-                                                        <!--begin:Menu item-->
-                                                        <div class="menu-item p-0 m-0">
-                                                            <!--begin:Menu link-->
-                                                            <a href="../../demo37/dist/authentication/email/reset-password.html"
-                                                                class="menu-link">
-                                                                <span class="menu-title">Reset Password</span>
-                                                            </a>
-                                                            <!--end:Menu link-->
-                                                        </div>
-                                                        <!--end:Menu item-->
-                                                        <!--begin:Menu item-->
-                                                        <div class="menu-item p-0 m-0">
-                                                            <!--begin:Menu link-->
-                                                            <a href="../../demo37/dist/authentication/email/subscription-confirmed.html"
-                                                                class="menu-link">
-                                                                <span class="menu-title">Subscription Confirmed</span>
-                                                            </a>
-                                                            <!--end:Menu link-->
-                                                        </div>
-                                                        <!--end:Menu item-->
-                                                        <!--begin:Menu item-->
-                                                        <div class="menu-item p-0 m-0">
-                                                            <!--begin:Menu link-->
-                                                            <a href="../../demo37/dist/authentication/email/card-declined.html"
-                                                                class="menu-link">
-                                                                <span class="menu-title">Credit Card Declined</span>
-                                                            </a>
-                                                            <!--end:Menu link-->
-                                                        </div>
-                                                        <!--end:Menu item-->
-                                                        <!--begin:Menu item-->
-                                                        <div class="menu-item p-0 m-0">
-                                                            <!--begin:Menu link-->
-                                                            <a href="../../demo37/dist/authentication/email/promo-1.html"
-                                                                class="menu-link">
-                                                                <span class="menu-title">Promo 1</span>
-                                                            </a>
-                                                            <!--end:Menu link-->
-                                                        </div>
-                                                        <!--end:Menu item-->
-                                                        <!--begin:Menu item-->
-                                                        <div class="menu-item p-0 m-0">
-                                                            <!--begin:Menu link-->
-                                                            <a href="../../demo37/dist/authentication/email/promo-2.html"
-                                                                class="menu-link">
-                                                                <span class="menu-title">Promo 2</span>
-                                                            </a>
-                                                            <!--end:Menu link-->
-                                                        </div>
-                                                        <!--end:Menu item-->
-                                                        <!--begin:Menu item-->
-                                                        <div class="menu-item p-0 m-0">
-                                                            <!--begin:Menu link-->
-                                                            <a href="../../demo37/dist/authentication/email/promo-3.html"
-                                                                class="menu-link">
-                                                                <span class="menu-title">Promo 3</span>
-                                                            </a>
-                                                            <!--end:Menu link-->
-                                                        </div>
-                                                        <!--end:Menu item-->
-                                                    </div>
-                                                    <!--end:Menu section-->
-                                                </div>
-                                                <!--end:Col-->
-                                            </div>
-                                            <!--end:Row-->
-                                        </div>
-                                        <!--end:Tab pane-->
-                                        <!--begin:Tab pane-->
-                                        <div class="tab-pane w-lg-1000px" id="kt_app_header_menu_pages_utilities">
-                                            <!--begin:Row-->
-                                            <div class="row">
-                                                <!--begin:Col-->
-                                                <div class="col-lg-7">
-                                                    <!--begin:Row-->
-                                                    <div class="row">
-                                                        <!--begin:Col-->
-                                                        <div class="col-lg-4 mb-6 mb-lg-0">
-                                                            <!--begin:Menu section-->
-                                                            <div class="mb-0">
-                                                                <!--begin:Menu heading-->
-                                                                <h4 class="fs-6 fs-lg-4 fw-bold mb-3 ms-4">General
-                                                                    Modals</h4>
-                                                                <!--end:Menu heading-->
-                                                                <!--begin:Menu item-->
-                                                                <div class="menu-item p-0 m-0">
-                                                                    <!--begin:Menu link-->
-                                                                    <a href="../../demo37/dist/utilities/modals/general/invite-friends.html"
-                                                                        class="menu-link">
-                                                                        <span class="menu-title">Invite Friends</span>
-                                                                    </a>
-                                                                    <!--end:Menu link-->
-                                                                </div>
-                                                                <!--end:Menu item-->
-                                                                <!--begin:Menu item-->
-                                                                <div class="menu-item p-0 m-0">
-                                                                    <!--begin:Menu link-->
-                                                                    <a href="../../demo37/dist/utilities/modals/general/view-users.html"
-                                                                        class="menu-link">
-                                                                        <span class="menu-title">View Users</span>
-                                                                    </a>
-                                                                    <!--end:Menu link-->
-                                                                </div>
-                                                                <!--end:Menu item-->
-                                                                <!--begin:Menu item-->
-                                                                <div class="menu-item p-0 m-0">
-                                                                    <!--begin:Menu link-->
-                                                                    <a href="../../demo37/dist/utilities/modals/general/select-users.html"
-                                                                        class="menu-link">
-                                                                        <span class="menu-title">Select Users</span>
-                                                                    </a>
-                                                                    <!--end:Menu link-->
-                                                                </div>
-                                                                <!--end:Menu item-->
-                                                                <!--begin:Menu item-->
-                                                                <div class="menu-item p-0 m-0">
-                                                                    <!--begin:Menu link-->
-                                                                    <a href="../../demo37/dist/utilities/modals/general/upgrade-plan.html"
-                                                                        class="menu-link">
-                                                                        <span class="menu-title">Upgrade Plan</span>
-                                                                    </a>
-                                                                    <!--end:Menu link-->
-                                                                </div>
-                                                                <!--end:Menu item-->
-                                                                <!--begin:Menu item-->
-                                                                <div class="menu-item p-0 m-0">
-                                                                    <!--begin:Menu link-->
-                                                                    <a href="../../demo37/dist/utilities/modals/general/share-earn.html"
-                                                                        class="menu-link">
-                                                                        <span class="menu-title">Share & Earn</span>
-                                                                    </a>
-                                                                    <!--end:Menu link-->
-                                                                </div>
-                                                                <!--end:Menu item-->
-                                                                <!--begin:Menu item-->
-                                                                <div class="menu-item p-0 m-0">
-                                                                    <!--begin:Menu link-->
-                                                                    <a href="../../demo37/dist/utilities/modals/forms/new-target.html"
-                                                                        class="menu-link">
-                                                                        <span class="menu-title">New Target</span>
-                                                                    </a>
-                                                                    <!--end:Menu link-->
-                                                                </div>
-                                                                <!--end:Menu item-->
-                                                                <!--begin:Menu item-->
-                                                                <div class="menu-item p-0 m-0">
-                                                                    <!--begin:Menu link-->
-                                                                    <a href="../../demo37/dist/utilities/modals/forms/new-card.html"
-                                                                        class="menu-link">
-                                                                        <span class="menu-title">New Card</span>
-                                                                    </a>
-                                                                    <!--end:Menu link-->
-                                                                </div>
-                                                                <!--end:Menu item-->
-                                                                <!--begin:Menu item-->
-                                                                <div class="menu-item p-0 m-0">
-                                                                    <!--begin:Menu link-->
-                                                                    <a href="../../demo37/dist/utilities/modals/forms/new-address.html"
-                                                                        class="menu-link">
-                                                                        <span class="menu-title">New Address</span>
-                                                                    </a>
-                                                                    <!--end:Menu link-->
-                                                                </div>
-                                                                <!--end:Menu item-->
-                                                                <!--begin:Menu item-->
-                                                                <div class="menu-item p-0 m-0">
-                                                                    <!--begin:Menu link-->
-                                                                    <a href="../../demo37/dist/utilities/modals/forms/create-api-key.html"
-                                                                        class="menu-link">
-                                                                        <span class="menu-title">Create API Key</span>
-                                                                    </a>
-                                                                    <!--end:Menu link-->
-                                                                </div>
-                                                                <!--end:Menu item-->
-                                                                <!--begin:Menu item-->
-                                                                <div class="menu-item p-0 m-0">
-                                                                    <!--begin:Menu link-->
-                                                                    <a href="../../demo37/dist/utilities/modals/forms/bidding.html"
-                                                                        class="menu-link">
-                                                                        <span class="menu-title">Bidding</span>
-                                                                    </a>
-                                                                    <!--end:Menu link-->
-                                                                </div>
-                                                                <!--end:Menu item-->
-                                                            </div>
-                                                            <!--end:Menu section-->
-                                                        </div>
-                                                        <!--end:Col-->
-                                                        <!--begin:Col-->
-                                                        <div class="col-lg-4 mb-6 mb-lg-0">
-                                                            <!--begin:Menu section-->
-                                                            <div class="mb-6">
-                                                                <!--begin:Menu heading-->
-                                                                <h4 class="fs-6 fs-lg-4 fw-bold mb-3 ms-4">Advanced
-                                                                    Modals</h4>
-                                                                <!--end:Menu heading-->
-                                                                <!--begin:Menu item-->
-                                                                <div class="menu-item p-0 m-0">
-                                                                    <!--begin:Menu link-->
-                                                                    <a href="../../demo37/dist/utilities/modals/wizards/create-app.html"
-                                                                        class="menu-link">
-                                                                        <span class="menu-title">Create App</span>
-                                                                    </a>
-                                                                    <!--end:Menu link-->
-                                                                </div>
-                                                                <!--end:Menu item-->
-                                                                <!--begin:Menu item-->
-                                                                <div class="menu-item p-0 m-0">
-                                                                    <!--begin:Menu link-->
-                                                                    <a href="../../demo37/dist/utilities/modals/wizards/create-campaign.html"
-                                                                        class="menu-link">
-                                                                        <span class="menu-title">Create Campaign</span>
-                                                                    </a>
-                                                                    <!--end:Menu link-->
-                                                                </div>
-                                                                <!--end:Menu item-->
-                                                                <!--begin:Menu item-->
-                                                                <div class="menu-item p-0 m-0">
-                                                                    <!--begin:Menu link-->
-                                                                    <a href="../../demo37/dist/utilities/modals/wizards/create-account.html"
-                                                                        class="menu-link">
-                                                                        <span class="menu-title">Create Business
-                                                                            Acc</span>
-                                                                    </a>
-                                                                    <!--end:Menu link-->
-                                                                </div>
-                                                                <!--end:Menu item-->
-                                                                <!--begin:Menu item-->
-                                                                <div class="menu-item p-0 m-0">
-                                                                    <!--begin:Menu link-->
-                                                                    <a href="../../demo37/dist/utilities/modals/wizards/create-project.html"
-                                                                        class="menu-link">
-                                                                        <span class="menu-title">Create Project</span>
-                                                                    </a>
-                                                                    <!--end:Menu link-->
-                                                                </div>
-                                                                <!--end:Menu item-->
-                                                                <!--begin:Menu item-->
-                                                                <div class="menu-item p-0 m-0">
-                                                                    <!--begin:Menu link-->
-                                                                    <a href="../../demo37/dist/utilities/modals/wizards/top-up-wallet.html"
-                                                                        class="menu-link">
-                                                                        <span class="menu-title">Top Up Wallet</span>
-                                                                    </a>
-                                                                    <!--end:Menu link-->
-                                                                </div>
-                                                                <!--end:Menu item-->
-                                                                <!--begin:Menu item-->
-                                                                <div class="menu-item p-0 m-0">
-                                                                    <!--begin:Menu link-->
-                                                                    <a href="../../demo37/dist/utilities/modals/wizards/offer-a-deal.html"
-                                                                        class="menu-link">
-                                                                        <span class="menu-title">Offer a Deal</span>
-                                                                    </a>
-                                                                    <!--end:Menu link-->
-                                                                </div>
-                                                                <!--end:Menu item-->
-                                                                <!--begin:Menu item-->
-                                                                <div class="menu-item p-0 m-0">
-                                                                    <!--begin:Menu link-->
-                                                                    <a href="../../demo37/dist/utilities/modals/wizards/two-factor-authentication.html"
-                                                                        class="menu-link">
-                                                                        <span class="menu-title">Two Factor Auth</span>
-                                                                    </a>
-                                                                    <!--end:Menu link-->
-                                                                </div>
-                                                                <!--end:Menu item-->
-                                                            </div>
-                                                            <!--end:Menu section-->
-                                                            <!--begin:Menu section-->
-                                                            <div class="mb-0">
-                                                                <!--begin:Menu heading-->
-                                                                <h4 class="fs-6 fs-lg-4 fw-bold mb-3 ms-4">Search</h4>
-                                                                <!--end:Menu heading-->
-                                                                <!--begin:Menu item-->
-                                                                <div class="menu-item p-0 m-0">
-                                                                    <!--begin:Menu link-->
-                                                                    <a href="../../demo37/dist/utilities/search/horizontal.html"
-                                                                        class="menu-link">
-                                                                        <span class="menu-title">Horizontal</span>
-                                                                    </a>
-                                                                    <!--end:Menu link-->
-                                                                </div>
-                                                                <!--end:Menu item-->
-                                                                <!--begin:Menu item-->
-                                                                <div class="menu-item p-0 m-0">
-                                                                    <!--begin:Menu link-->
-                                                                    <a href="../../demo37/dist/utilities/search/vertical.html"
-                                                                        class="menu-link">
-                                                                        <span class="menu-title">Vertical</span>
-                                                                    </a>
-                                                                    <!--end:Menu link-->
-                                                                </div>
-                                                                <!--end:Menu item-->
-                                                                <!--begin:Menu item-->
-                                                                <div class="menu-item p-0 m-0">
-                                                                    <!--begin:Menu link-->
-                                                                    <a href="../../demo37/dist/utilities/modals/search/users.html"
-                                                                        class="menu-link">
-                                                                        <span class="menu-title">Users</span>
-                                                                    </a>
-                                                                    <!--end:Menu link-->
-                                                                </div>
-                                                                <!--end:Menu item-->
-                                                                <!--begin:Menu item-->
-                                                                <div class="menu-item p-0 m-0">
-                                                                    <!--begin:Menu link-->
-                                                                    <a href="../../demo37/dist/utilities/modals/search/select-location.html"
-                                                                        class="menu-link">
-                                                                        <span class="menu-title">Select Location</span>
-                                                                    </a>
-                                                                    <!--end:Menu link-->
-                                                                </div>
-                                                                <!--end:Menu item-->
-                                                            </div>
-                                                            <!--end:Menu section-->
-                                                        </div>
-                                                        <!--end:Col-->
-                                                        <!--begin:Col-->
-                                                        <div class="col-lg-4 mb-6 mb-lg-0">
-                                                            <!--begin:Menu section-->
-                                                            <div class="mb-0">
-                                                                <!--begin:Menu heading-->
-                                                                <h4 class="fs-6 fs-lg-4 fw-bold mb-3 ms-4">Wizards</h4>
-                                                                <!--end:Menu heading-->
-                                                                <!--begin:Menu item-->
-                                                                <div class="menu-item p-0 m-0">
-                                                                    <!--begin:Menu link-->
-                                                                    <a href="../../demo37/dist/utilities/wizards/horizontal.html"
-                                                                        class="menu-link">
-                                                                        <span class="menu-title">Horizontal</span>
-                                                                    </a>
-                                                                    <!--end:Menu link-->
-                                                                </div>
-                                                                <!--end:Menu item-->
-                                                                <!--begin:Menu item-->
-                                                                <div class="menu-item p-0 m-0">
-                                                                    <!--begin:Menu link-->
-                                                                    <a href="../../demo37/dist/utilities/wizards/vertical.html"
-                                                                        class="menu-link">
-                                                                        <span class="menu-title">Vertical</span>
-                                                                    </a>
-                                                                    <!--end:Menu link-->
-                                                                </div>
-                                                                <!--end:Menu item-->
-                                                                <!--begin:Menu item-->
-                                                                <div class="menu-item p-0 m-0">
-                                                                    <!--begin:Menu link-->
-                                                                    <a href="../../demo37/dist/utilities/wizards/two-factor-authentication.html"
-                                                                        class="menu-link">
-                                                                        <span class="menu-title">Two Factor Auth</span>
-                                                                    </a>
-                                                                    <!--end:Menu link-->
-                                                                </div>
-                                                                <!--end:Menu item-->
-                                                                <!--begin:Menu item-->
-                                                                <div class="menu-item p-0 m-0">
-                                                                    <!--begin:Menu link-->
-                                                                    <a href="../../demo37/dist/utilities/wizards/create-app.html"
-                                                                        class="menu-link">
-                                                                        <span class="menu-title">Create App</span>
-                                                                    </a>
-                                                                    <!--end:Menu link-->
-                                                                </div>
-                                                                <!--end:Menu item-->
-                                                                <!--begin:Menu item-->
-                                                                <div class="menu-item p-0 m-0">
-                                                                    <!--begin:Menu link-->
-                                                                    <a href="../../demo37/dist/utilities/wizards/create-campaign.html"
-                                                                        class="menu-link">
-                                                                        <span class="menu-title">Create Campaign</span>
-                                                                    </a>
-                                                                    <!--end:Menu link-->
-                                                                </div>
-                                                                <!--end:Menu item-->
-                                                                <!--begin:Menu item-->
-                                                                <div class="menu-item p-0 m-0">
-                                                                    <!--begin:Menu link-->
-                                                                    <a href="../../demo37/dist/utilities/wizards/create-account.html"
-                                                                        class="menu-link">
-                                                                        <span class="menu-title">Create Account</span>
-                                                                    </a>
-                                                                    <!--end:Menu link-->
-                                                                </div>
-                                                                <!--end:Menu item-->
-                                                                <!--begin:Menu item-->
-                                                                <div class="menu-item p-0 m-0">
-                                                                    <!--begin:Menu link-->
-                                                                    <a href="../../demo37/dist/utilities/wizards/create-project.html"
-                                                                        class="menu-link">
-                                                                        <span class="menu-title">Create Project</span>
-                                                                    </a>
-                                                                    <!--end:Menu link-->
-                                                                </div>
-                                                                <!--end:Menu item-->
-                                                                <!--begin:Menu item-->
-                                                                <div class="menu-item p-0 m-0">
-                                                                    <!--begin:Menu link-->
-                                                                    <a href="../../demo37/dist/utilities/modals/wizards/top-up-wallet.html"
-                                                                        class="menu-link">
-                                                                        <span class="menu-title">Top Up Wallet</span>
-                                                                    </a>
-                                                                    <!--end:Menu link-->
-                                                                </div>
-                                                                <!--end:Menu item-->
-                                                                <!--begin:Menu item-->
-                                                                <div class="menu-item p-0 m-0">
-                                                                    <!--begin:Menu link-->
-                                                                    <a href="../../demo37/dist/utilities/wizards/offer-a-deal.html"
-                                                                        class="menu-link">
-                                                                        <span class="menu-title">Offer a Deal</span>
-                                                                    </a>
-                                                                    <!--end:Menu link-->
-                                                                </div>
-                                                                <!--end:Menu item-->
-                                                            </div>
-                                                            <!--end:Menu section-->
-                                                        </div>
-                                                        <!--end:Col-->
-                                                    </div>
-                                                    <!--end:Row-->
-                                                </div>
-                                                <!--end:Col-->
-                                                <!--begin:Col-->
-                                                {{-- <div class="col-lg-5 pe-lg-5">
-                                                    <img src="assets/media/stock/600x600/img-84.jpg"
-                                                        class="rounded mw-100" alt="" />
-                                                </div> --}}
-                                                <!--end:Col-->
-                                            </div>
-                                            <!--end:Row-->
-                                        </div>
-                                        <!--end:Tab pane-->
-                                        <!--begin:Tab pane-->
-                                        <div class="tab-pane w-lg-500px" id="kt_app_header_menu_pages_widgets">
-                                            <!--begin:Row-->
-                                            <div class="row">
-                                                <!--begin:Col-->
-                                                <div class="col-lg-4 mb-6 mb-lg-0">
-                                                    <!--begin:Menu item-->
-                                                    <div class="menu-item p-0 m-0">
-                                                        <!--begin:Menu link-->
-                                                        <a href="../../demo37/dist/widgets/lists.html"
-                                                            class="menu-link">
-                                                            <span class="menu-title">Lists</span>
-                                                        </a>
-                                                        <!--end:Menu link-->
-                                                    </div>
-                                                    <!--end:Menu item-->
-                                                    <!--begin:Menu item-->
-                                                    <div class="menu-item p-0 m-0">
-                                                        <!--begin:Menu link-->
-                                                        <a href="../../demo37/dist/widgets/statistics.html"
-                                                            class="menu-link">
-                                                            <span class="menu-title">Statistics</span>
-                                                        </a>
-                                                        <!--end:Menu link-->
-                                                    </div>
-                                                    <!--end:Menu item-->
-                                                    <!--begin:Menu item-->
-                                                    <div class="menu-item p-0 m-0">
-                                                        <!--begin:Menu link-->
-                                                        <a href="../../demo37/dist/widgets/charts.html"
-                                                            class="menu-link">
-                                                            <span class="menu-title">Charts</span>
-                                                        </a>
-                                                        <!--end:Menu link-->
-                                                    </div>
-                                                    <!--end:Menu item-->
-                                                    <!--begin:Menu item-->
-                                                    <div class="menu-item p-0 m-0">
-                                                        <!--begin:Menu link-->
-                                                        <a href="../../demo37/dist/widgets/mixed.html"
-                                                            class="menu-link">
-                                                            <span class="menu-title">Mixed</span>
-                                                        </a>
-                                                        <!--end:Menu link-->
-                                                    </div>
-                                                    <!--end:Menu item-->
-                                                    <!--begin:Menu item-->
-                                                    <div class="menu-item p-0 m-0">
-                                                        <!--begin:Menu link-->
-                                                        <a href="../../demo37/dist/widgets/tables.html"
-                                                            class="menu-link">
-                                                            <span class="menu-title">Tables</span>
-                                                        </a>
-                                                        <!--end:Menu link-->
-                                                    </div>
-                                                    <!--end:Menu item-->
-                                                    <!--begin:Menu item-->
-                                                    <div class="menu-item p-0 m-0">
-                                                        <!--begin:Menu link-->
-                                                        <a href="../../demo37/dist/widgets/feeds.html"
-                                                            class="menu-link">
-                                                            <span class="menu-title">Feeds</span>
-                                                        </a>
-                                                        <!--end:Menu link-->
-                                                    </div>
-                                                    <!--end:Menu item-->
-                                                </div>
-                                                <!--end:Col-->
-                                                <!--begin:Col-->
-                                                {{-- <div class="col-lg-8">
-                                                    <img src="assets/media/stock/900x600/44.jpg"
-                                                        class="rounded mw-100" alt="" />
-                                                </div> --}}
-                                                <!--end:Col-->
-                                            </div>
-                                            <!--end:Row-->
-                                        </div>
-                                        <!--end:Tab pane-->
-                                    </div>
-                                    <!--end:Tab content-->
-                                </div>
-                                <!--end:Pages menu-->
-                            </div>
-                            <!--end:Menu sub-->
-                        </div>
-                        <!--end:Menu item-->
-                        <!--begin:Menu item-->
-                        <div data-kt-menu-trigger="{default: 'click', lg: 'hover'}"
                             data-kt-menu-placement="bottom-start"
                             class="menu-item menu-lg-down-accordion menu-sub-lg-down-indention me-0 me-lg-2">
                             <!--begin:Menu link-->
                             <span class="menu-link">
-                                <span class="menu-title">Paramètres</span>
+                                <span class="menu-title text-uppercase fs-6">Paramètres</span>
                                 <span class="menu-arrow d-lg-none"></span>
                             </span>
                             <!--end:Menu link-->
 
                             <!--begin:Menu sub-->
-                            <div class="menu-sub menu-sub-lg-down-accordion menu-sub-lg-dropdown px-lg-2 py-lg-4 w-lg-250px">
+                            <div
+                                class="menu-sub menu-sub-lg-down-accordion menu-sub-lg-dropdown px-lg-2 py-lg-4 w-lg-250px">
                                 <!--begin:Menu item-->
                                 <div data-kt-menu-trigger="{default:'click', lg: 'hover'}"
                                     data-kt-menu-placement="right-start" class="menu-item menu-lg-down-accordion">
@@ -1748,12 +277,13 @@
                                         <span class="menu-icon">
                                             <i class="ki-outline ki-shield-tick fs-2"></i>
                                         </span>
-                                        <span class="menu-title">Gestion des utilisateurs</span>
+                                        <span class="menu-title text-uppercase">Gestion des utilisateurs</span>
                                         <span class="menu-arrow"></span>
                                     </span>
                                     <!--end:Menu link-->
                                     <!--begin:Menu sub-->
-                                    <div class="menu-sub menu-sub-lg-down-accordion menu-sub-lg-dropdown menu-active-bg px-lg-2 py-lg-4 w-lg-225px">
+                                    <div
+                                        class="menu-sub menu-sub-lg-down-accordion menu-sub-lg-dropdown menu-active-bg px-lg-2 py-lg-4 w-lg-225px">
                                         <!--begin:Menu item-->
                                         <div data-kt-menu-trigger="{default:'click', lg: 'hover'}"
                                             data-kt-menu-placement="right-start"
@@ -1763,7 +293,7 @@
                                                 <span class="menu-bullet">
                                                     <span class="bullet bullet-dot"></span>
                                                 </span>
-                                                <span class="menu-title">Utilisateurs</span>
+                                                <span class="menu-title text-uppercase">Utilisateurs</span>
                                                 <span class="menu-arrow"></span>
                                             </span>
                                             <!--end:Menu link-->
@@ -1778,7 +308,7 @@
                                                         <span class="menu-bullet">
                                                             <span class="bullet bullet-dot"></span>
                                                         </span>
-                                                        <span class="menu-title">Users List</span>
+                                                        <span class="menu-title text-uppercase">Users List</span>
                                                     </a>
                                                     <!--end:Menu link-->
                                                 </div>
@@ -1791,7 +321,7 @@
                                                         <span class="menu-bullet">
                                                             <span class="bullet bullet-dot"></span>
                                                         </span>
-                                                        <span class="menu-title">View User</span>
+                                                        <span class="menu-title text-uppercase">View User</span>
                                                     </a>
                                                     <!--end:Menu link-->
                                                 </div>
@@ -1809,7 +339,7 @@
                                                 <span class="menu-bullet">
                                                     <span class="bullet bullet-dot"></span>
                                                 </span>
-                                                <span class="menu-title">Roles</span>
+                                                <span class="menu-title text-uppercase">Roles</span>
                                                 <span class="menu-arrow"></span>
                                             </span>
                                             <!--end:Menu link-->
@@ -1824,7 +354,7 @@
                                                         <span class="menu-bullet">
                                                             <span class="bullet bullet-dot"></span>
                                                         </span>
-                                                        <span class="menu-title">Roles List</span>
+                                                        <span class="menu-title text-uppercase">Roles List</span>
                                                     </a>
                                                     <!--end:Menu link-->
                                                 </div>
@@ -1837,7 +367,7 @@
                                                         <span class="menu-bullet">
                                                             <span class="bullet bullet-dot"></span>
                                                         </span>
-                                                        <span class="menu-title">View Roles</span>
+                                                        <span class="menu-title text-uppercase">View Roles</span>
                                                     </a>
                                                     <!--end:Menu link-->
                                                 </div>
@@ -1849,12 +379,11 @@
                                         <!--begin:Menu item-->
                                         <div class="menu-item">
                                             <!--begin:Menu link-->
-                                            <a class="menu-link"
-                                                href="{{ route('permission') }}">
+                                            <a class="menu-link" href="{{ route('permission') }}">
                                                 <span class="menu-bullet">
                                                     <span class="bullet bullet-dot"></span>
                                                 </span>
-                                                <span class="menu-title">Permissions</span>
+                                                <span class="menu-title text-uppercase">Permissions</span>
                                             </a>
                                             <!--end:Menu link-->
                                         </div>
@@ -1872,7 +401,7 @@
                                         <span class="menu-icon">
                                             <i class="ki-outline ki-sms fs-2"></i>
                                         </span>
-                                        <span class="menu-title">Gestion de la localisation</span>
+                                        <span class="menu-title text-uppercase">Gestion de la localisation</span>
                                         <span class="menu-arrow"></span>
                                     </span>
                                     <!--end:Menu link-->
@@ -1886,7 +415,7 @@
                                                 <span class="menu-bullet">
                                                     <span class="bullet bullet-dot"></span>
                                                 </span>
-                                                <span class="menu-title">Pays</span>
+                                                <span class="menu-title text-uppercase">Pays</span>
                                                 <span class="menu-badge">
                                                     <span class="badge badge-light-success">3</span>
                                                 </span>
@@ -1901,7 +430,7 @@
                                                 <span class="menu-bullet">
                                                     <span class="bullet bullet-dot"></span>
                                                 </span>
-                                                <span class="menu-title">Ville</span>
+                                                <span class="menu-title text-uppercase">Ville</span>
                                             </a>
                                             <!--end:Menu link-->
                                         </div>
@@ -1913,7 +442,7 @@
                                                 <span class="menu-bullet">
                                                     <span class="bullet bullet-dot"></span>
                                                 </span>
-                                                <span class="menu-title">Quartier</span>
+                                                <span class="menu-title text-uppercase">Quartier</span>
                                             </a>
                                             <!--end:Menu link-->
                                         </div>
@@ -1927,89 +456,6 @@
 
 
                         </div>
-                        <!--end:Menu item-->
-
-
-                        <!--begin:Menu item-->
-                        {{-- <div data-kt-menu-trigger="{default: 'click', lg: 'hover'}"
-                            data-kt-menu-placement="bottom-start"
-                            class="menu-item menu-lg-down-accordion menu-sub-lg-down-indention me-0 me-lg-2">
-                            <!--begin:Menu link-->
-                            <span class="menu-link">
-                                <span class="menu-title">Help</span>
-                                <span class="menu-arrow d-lg-none"></span>
-                            </span>
-                            <!--end:Menu link-->
-                            <!--begin:Menu sub-->
-                            <div
-                                class="menu-sub menu-sub-lg-down-accordion menu-sub-lg-dropdown px-lg-2 py-lg-4 w-lg-200px">
-                                <!--begin:Menu item-->
-                                <div class="menu-item">
-                                    <!--begin:Menu link-->
-                                    <a class="menu-link"
-                                        href="https://preview.keenthemes.com/html/metronic/docs/base/utilities"
-                                        target="_blank"
-                                        title="Check out over 200 in-house components, plugins and ready for use solutions"
-                                        data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click"
-                                        data-bs-placement="right">
-                                        <span class="menu-icon">
-                                            <i class="ki-outline ki-rocket fs-2"></i>
-                                        </span>
-                                        <span class="menu-title">Components</span>
-                                    </a>
-                                    <!--end:Menu link-->
-                                </div>
-                                <!--end:Menu item-->
-                                <!--begin:Menu item-->
-                                <div class="menu-item">
-                                    <!--begin:Menu link-->
-                                    <a class="menu-link" href="https://preview.keenthemes.com/html/metronic/docs"
-                                        target="_blank" title="Check out the complete documentation"
-                                        data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click"
-                                        data-bs-placement="right">
-                                        <span class="menu-icon">
-                                            <i class="ki-outline ki-abstract-26 fs-2"></i>
-                                        </span>
-                                        <span class="menu-title">Documentation</span>
-                                    </a>
-                                    <!--end:Menu link-->
-                                </div>
-                                <!--end:Menu item-->
-                                <!--begin:Menu item-->
-                                <div class="menu-item">
-                                    <!--begin:Menu link-->
-                                    <a class="menu-link"
-                                        href="https://preview.keenthemes.com/metronic8/demo37/layout-builder.html"
-                                        title="Build your layout and export HTML for server side integration"
-                                        data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click"
-                                        data-bs-placement="right">
-                                        <span class="menu-icon">
-                                            <i class="ki-outline ki-switch fs-2"></i>
-                                        </span>
-                                        <span class="menu-title">Layout Builder</span>
-                                    </a>
-                                    <!--end:Menu link-->
-                                </div>
-                                <!--end:Menu item-->
-                                <!--begin:Menu item-->
-                                <div class="menu-item">
-                                    <!--begin:Menu link-->
-                                    <a class="menu-link"
-                                        href="https://preview.keenthemes.com/html/metronic/docs/getting-started/changelog"
-                                        target="_blank">
-                                        <span class="menu-icon">
-                                            <i class="ki-outline ki-code fs-2"></i>
-                                        </span>
-                                        <span class="menu-title">Changelog v8.1.8</span>
-                                    </a>
-                                    <!--end:Menu link-->
-                                </div>
-                                <!--end:Menu item-->
-                            </div>
-                            <!--end:Menu sub-->
-                        </div> --}}
-                        <!--end:Menu item-->
-
                     </div>
                     <!--end::Menu-->
                 </div>
@@ -2298,8 +744,8 @@
                                             <span class="w-70px badge badge-light-success me-4">200 OK</span>
                                             <!--end::Code-->
                                             <!--begin::Title-->
-                                            <a href="#"
-                                                class="text-gray-800 text-hover-primary fw-semibold">New order</a>
+                                            <a href="#" class="text-gray-800 text-hover-primary fw-semibold">New
+                                                order</a>
                                             <!--end::Title-->
                                         </div>
                                         <!--end::Section-->
@@ -2316,8 +762,8 @@
                                             <span class="w-70px badge badge-light-danger me-4">500 ERR</span>
                                             <!--end::Code-->
                                             <!--begin::Title-->
-                                            <a href="#"
-                                                class="text-gray-800 text-hover-primary fw-semibold">New customer</a>
+                                            <a href="#" class="text-gray-800 text-hover-primary fw-semibold">New
+                                                customer</a>
                                             <!--end::Title-->
                                         </div>
                                         <!--end::Section-->
@@ -2371,8 +817,7 @@
                                             <span class="w-70px badge badge-light-success me-4">200 OK</span>
                                             <!--end::Code-->
                                             <!--begin::Title-->
-                                            <a href="#"
-                                                class="text-gray-800 text-hover-primary fw-semibold">API
+                                            <a href="#" class="text-gray-800 text-hover-primary fw-semibold">API
                                                 connection</a>
                                             <!--end::Title-->
                                         </div>
@@ -2446,8 +891,8 @@
                                             <span class="w-70px badge badge-light-warning me-4">300 WRN</span>
                                             <!--end::Code-->
                                             <!--begin::Title-->
-                                            <a href="#"
-                                                class="text-gray-800 text-hover-primary fw-semibold">API rollback</a>
+                                            <a href="#" class="text-gray-800 text-hover-primary fw-semibold">API
+                                                rollback</a>
                                             <!--end::Title-->
                                         </div>
                                         <!--end::Section-->
@@ -2670,28 +1115,23 @@
                             <div class="menu-sub menu-sub-dropdown w-175px py-4">
                                 <!--begin::Menu item-->
                                 <div class="menu-item px-3">
-                                    <a href="javascript:;"
-                                        class="menu-link px-5">Referrals</a>
+                                    <a href="javascript:;" class="menu-link px-5">Referrals</a>
                                 </div>
                                 <!--end::Menu item-->
                                 <!--begin::Menu item-->
                                 <div class="menu-item px-3">
-                                    <a href="javascript:;"
-                                        class="menu-link px-5">Billing</a>
+                                    <a href="javascript:;" class="menu-link px-5">Billing</a>
                                 </div>
                                 <!--end::Menu item-->
                                 <!--begin::Menu item-->
                                 <div class="menu-item px-3">
-                                    <a href="javascript:;"
-                                        class="menu-link px-5">Payments</a>
+                                    <a href="javascript:;" class="menu-link px-5">Payments</a>
                                 </div>
                                 <!--end::Menu item-->
                                 <!--begin::Menu item-->
                                 <div class="menu-item px-3">
-                                    <a href="javascript:;"
-                                        class="menu-link d-flex flex-stack px-5">Statements
-                                        <span class="ms-2" data-bs-toggle="tooltip"
-                                            title="View your statements">
+                                    <a href="javascript:;" class="menu-link d-flex flex-stack px-5">Statements
+                                        <span class="ms-2" data-bs-toggle="tooltip" title="View your statements">
                                             <i class="ki-outline ki-information fs-7"></i>
                                         </span></a>
                                 </div>
@@ -2774,10 +1214,10 @@
                             <div class="menu-sub menu-sub-dropdown w-175px py-4">
                                 <!--begin::Menu item-->
                                 <div class="menu-item px-3">
-                                    <a href="javascript:;"
-                                        class="menu-link d-flex px-5 active">
+                                    <a href="javascript:;" class="menu-link d-flex px-5 active">
                                         <span class="symbol symbol-20px me-4">
-                                            <img class="rounded-1" src="{{ asset('assets/media/flags/united-states.svg') }}"
+                                            <img class="rounded-1"
+                                                src="{{ asset('assets/media/flags/united-states.svg') }}"
                                                 alt="" />
                                         </span>English</a>
                                 </div>
@@ -2795,8 +1235,8 @@
                                 <div class="menu-item px-3">
                                     <a href="javascript:;" class="menu-link d-flex px-5">
                                         <span class="symbol symbol-20px me-4">
-                                            <img class="rounded-1" src="{{ asset('assets/media/flags/germany.svg') }}"
-                                                alt="" />
+                                            <img class="rounded-1"
+                                                src="{{ asset('assets/media/flags/germany.svg') }}" alt="" />
                                         </span>German</a>
                                 </div>
                                 <!--end::Menu item-->
@@ -2829,9 +1269,9 @@
                             <form method="POST" action="{{ route('logout') }}">
                                 @csrf
                                 <a class="menu-link px-5" href="{{ route('logout') }}"
-                                        onclick="event.preventDefault();
-                                                        this.closest('form').submit();"
-                                        > {{ __('Log Out') }} </a>
+                                    onclick="event.preventDefault();
+                                                        this.closest('form').submit();">
+                                    {{ __('Log Out') }} </a>
                             </form>
                         </div>
                         <!--end::Menu item-->
